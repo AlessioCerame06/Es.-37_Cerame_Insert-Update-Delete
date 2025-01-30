@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>INSERISCI UN NUOVO ATTORE</h1>
+        <form action="inserisci.php" method="get">
+            Nome: <br>
+            <input type="text" name="nome"> <br>
+            Anno di nascita: <br>
+            <input type="number" name="annoNascita"> <br>
+            Nazionalità: <br>
+            <input type="text" name="nazionalita"> <br>
+            <input type="submit"> <br>
+        </form>
+        <h1>ELIMINA UNA PROIEZIONE</h1>
+        <form action="elimina.php" method="get">
+            ID proiezione: <br>
+            <input type="number" name="idProiezione"> <br>
+            <input type="submit"> <br>
+        </form>
+        <h1>AGGIORNA UN VOTO</h1>
+        <form action="aggiorna.php" method="get">
+            ID recensione: <br>
+            <input type="number" name="idRecensione"> <br>
+            Nuovo voto: <br>
+            <input type="number" name="voto"> <br>
+            <input type="submit"> <br>
+        </form>
+    </body>
+</html>
