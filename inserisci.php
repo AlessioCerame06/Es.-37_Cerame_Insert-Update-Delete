@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>INSERISCI</title>
     </head>
     <body>
         <?php
@@ -32,6 +32,6 @@
                 </div>";
             }
         ?>
-        <a href="aggiornamento.html">Ritorna alla pagina inserimento</a>
+        <a href="aggiornamento.html">Ritorna alla pagina form</a>
     </body>
 </html>
